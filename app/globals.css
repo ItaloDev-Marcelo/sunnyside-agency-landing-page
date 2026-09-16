@@ -1,26 +1,41 @@
 @import "tailwindcss";
 
+/* - Red 400: hsl(7, 99%, 70%)
+- Yellow 500: hsl(51, 100%, 49%)
+- Green 800 (graphic design text): hsl(167, 40%, 24%)
+- Blue 800 (photography text): hsl(198, 62%, 26%)
+- Green 500 (footer): hsl(167, 34%, 41%) */
+/* - Grey 950: hsl(212, 27%, 19%)
+- Grey 600: hsl(213, 9%, 39%)
+- Grey 550: hsl(232, 10%, 55%)
+- Grey 400: hsl(210, 4%, 67%)
+- White: hsl(0, 100%, 100%) */
+
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+--red: #FE7867;
+--yellow: #FAD400;
+--green-800: #25564C;
+--blue: #19536C;
+--green-500: #458C80;
+--gray-400: #2D3542;
+--gray-550: #85878D;
+--gray-600: #5A5D64;
+--gray-950: #2D3542;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-barlow: var(--font-barlow);
+  --font-fraunces: var(--font-fraunces);
+  --color-red:var(--red);
+  --color-yellow:var(--yellow);
+  --color-green800: var(--green-800);
+  --color-blue: var(--blue);
+  --color-green500: var(--green-500);
+  --color-gray400: var(--gray-400);
+  --color-gray550: var(--gray-550);
+  --color-gray600: var(--gray-600);
+  --color-gray950: var(--gray-950);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
-}
