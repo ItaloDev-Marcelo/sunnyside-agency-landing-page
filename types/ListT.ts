@@ -1,0 +1,1 @@
+export type ListLinkT = {title: string, link?: string}
