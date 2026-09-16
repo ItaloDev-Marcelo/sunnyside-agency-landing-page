@@ -1,5 +1,4 @@
-
-type ListLinkT = {title: string, link?: string}
+import { ListLinkT } from '../../types/ListT'
 
 export const ListLink = ({title, link}:ListLinkT) => {
   return (
