@@ -24,6 +24,7 @@ import emily from '../../assets/images/image-emily.jpg'
 import jennie from '../../assets/images/image-jennie.jpg'
 import thomas from '../../assets/images/image-thomas.jpg'
 import logo from '../../assets/images/logo.svg'
+import logoGreen from '../../assets/images/logo-green.svg'
 
 
 
@@ -53,6 +54,7 @@ export {
  emily,
  jennie,
  thomas,
- logo
+ logo,
+ logoGreen
 }
 
