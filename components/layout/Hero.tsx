@@ -11,7 +11,7 @@ export const Hero = () => {
          </header>
          <div className="text-center place-items-center mt-19 xl:mt-20">
           <h1 className="uppercase tracking-wider font-black font-fraunces text-white text-[3rem]  xl:w-auto xl:text-[4.5rem]">We are <br className='xl:hidden'/> creatives</h1>
-          <div><Image src={arrowDown} alt='addowDown-icon' className="w-10 relative top-15" /></div>
+          <div><Image src={arrowDown} alt='addowDown-icon' className="w-10 relative top-25" /></div>
          </div>
     </section>
   )
