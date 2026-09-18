@@ -1,1 +1,1 @@
-export type ListLinkT = {title: string, link?: string}
+export type ListLinkT = {title: string, link?: string, style?: string}
